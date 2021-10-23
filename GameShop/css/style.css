@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navegacion nav ul, .navegacion{
+    display: flex;
+    gap: 15px;
+}
+
+.navegacion nav ul li a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 15px;
+}
+
+.rojo {
+    color: red;
+}
+
+
+main {
+    background-color: rgb(236, 236, 236);
+}
+
+.heroe{
+    background-color: green;
+    background-image: url("../img/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.heroe a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #D01418;
+    display: block;
+    border-radius: 5px;
+    color: white;
+}
+
+.destacados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 50px;
+}
+
+.cartas {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.carta {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0px;
+    padding: 20px 20px;
+    width: 20%;
+}
+
+.carta img {
+    width: 50%;
+}
+
+.carta ul {
+    border-top: 2px solid grey;
+}
+
+.precio {
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+.envio {
+    color: #619D00;
+    font-size: 0.8rem;
+}
+
+
+.estrellas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.banderas {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+.bandera {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 20vh;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.bandera h3 {
+    margin-right: 10px;
+}
+
+
+.b1 {
+    background-image: url("../img/banner1.png");
+}
+
+.b2 {
+    background-image: url("../img/banner2.png");
+}

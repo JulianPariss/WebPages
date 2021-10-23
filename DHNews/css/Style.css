@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body header {
+  display: flex;
+  background-color: #a4b2b2;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+body header i {
+  font-size: 60px;
+  color: white;
+  margin: 0px 20px;
+}
+
+body header div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+  background-color: #ebebeb;
+  border-radius: 8px;
+  padding: 10px 0px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+body header div a {
+  padding: 8px 20px;
+  background-color: #b2c5c5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+body main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body main div .card {
+  padding: 50px;
+  width: 94.6%;
+  border-top: 1px solid black;
+}
+
+body main div .card .items {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 0px 30px 0px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+body main div .card .items img {
+  width: 300px;
+  padding: 25px;
+}
+
+body main div .card .items div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+body main div .nacional {
+  background-color: #c7cfce;
+}
+
+body main div .internacional {
+  background-color: #ddd7c0;
+}
+
+body footer div {
+  background-color: #a4b2b2;
+  height: 20vh;
+  border-top: 1px solid black;
+}
+
+body footer p {
+  background-color: #909d9d;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+/*# sourceMappingURL=Style.css.map */

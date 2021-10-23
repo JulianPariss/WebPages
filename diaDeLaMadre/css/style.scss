@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$cross-dimension: 10px;
+
+body{
+    background-color: #E2E38C;
+    header{
+        height: 20vh;
+        .mensaje {
+            position: absolute;
+            z-index: 99;
+            left: 30vw;
+            top: 10vh;
+            font-family: 'Pacifico', cursive;
+            color: #EBA9C1;
+        }
+        div {
+            background-color: #87D4D9;
+            display: flex;
+            align-items: flex-end;
+        }
+        .top-bar1{
+            height: 45%;
+        }
+        .top-bar2{
+            height: 25%;
+            margin-top: 30px;
+        }
+        .top-shadow{
+            height: 5px;
+            width: 100%;
+            background-color: #5CA4BB;
+        }
+        .shadow1{   
+            height: 30px;
+            width: 100%;
+            background-color: #BBBC71;
+            position: absolute;
+            z-index: -2;
+            top: 8vh;
+        }
+        .shadow2{
+            height: 30px;
+            margin-top: 30px;
+            background-color: #BBBC71;
+            width: 100%;
+            position: absolute;
+            z-index: -2;
+            top: 13vh;
+        }          
+    }
+    main{
+        height: 60vh;
+            .cross {
+                position: absolute;
+                background-color: #87D4D9;
+            }
+            .vertical{
+                height: 100vh;
+                width: $cross-dimension;
+
+                top: 0;
+                left: calc(50vw - #{$cross-dimension}/2);
+            }
+            .horizontal{
+                height: $cross-dimension;
+                width: 100vw;
+                top: calc(50vh - #{$cross-dimension}/2);
+                left: 0;
+            }
+            .shadow{
+                background-color:#5CA4BB;
+                height: 5px;
+                width: 100%;
+                z-index: -1;
+                top: calc(50vh + #{$cross-dimension}/2);
+            }
+
+            .centro {
+                position: absolute;
+                background-color: #87D4D9;
+                width: 150px;
+                height: 150px;
+                top: calc(50vh - 75px);
+                left: calc(50vw - 75px);
+                transform: rotate(45deg);
+                border-radius: 5px;
+                .sombra{
+                    background-color: #5CA4BB;
+                    width: 125px;
+                    height: 125px;
+                    margin-top: 8px;
+                    margin-left: 8px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .buton-shadow{
+                        background-color: #EBA9C1;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 5px;
+                        margin-bottom: 10px;
+                        margin-right: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .buton-base{
+                            background-color: #F8D0DE;
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 5px;
+                            margin-bottom: 10px;
+                            margin-right: 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .buton-circle {
+                                background-color: #FFE0E0;
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                border: #FAEBEB solid 2px;
+                            }
+                        }
+                    }
+                }
+            }
+            .shadow3{
+                height: $cross-dimension;
+                margin-top: 30px;
+                background-color: #BBBC71;
+                width: 100%;
+                position: absolute;
+                z-index: -2;
+                top: calc(50vh - #{$cross-dimension});
+            } 
+            .shadow4 {
+                position: absolute;
+                background-color: #BBBC71;
+                z-index: -3;
+                height: 150px;
+                width: 150px;
+                top: calc(50vh - 49px);
+                left: calc(50vw - 75px);
+                transform: rotate(45deg);
+                border-radius: 5px;
+            }
+            .imagen{
+                position: absolute;
+                width: 85vw;
+                z-index: 98;
+                left: 6vw;
+            }
+    }
+    footer{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .frase{
+            position: absolute;
+            z-index: 99;
+            left: 3vw;
+            bottom: 10vh;
+            font-family: 'Pacifico', cursive;
+            color: #EBA9C1;
+            font-size: 20px;
+        }
+        div {
+            background-color: #87D4D9;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+        }
+        .bottom-bar1 {
+            height: 25%;
+            margin-bottom: 30px;
+        }
+        .bottom-bar2{
+            height: 45%;
+        }
+        .bottom-shadow{
+            height: 5px;
+            width: 100%;
+            background-color: #5CA4BB;
+        }
+        .shadow5{
+            position: absolute;
+            top: 85vh;
+            width: 100%;
+            height: 30px;
+            background-color: #BBBC71;
+            z-index: -2;
+        }
+    }
+}
+
+  @keyframes rotate-scale-up {
+    0% {
+              transform: scale(1) rotateZ(0);
+              background-color: #F8D0DE;
+    }
+    50% {
+              transform: scale(2) rotateZ(180deg);
+              background-color: #ff4287;
+    }
+    100% {
+              transform: scale(5) rotateZ(360deg);
+              background-color: #F8D0DE;
+    }
+  }
+  
+  @keyframes gradient {
+      0%{
+            background-color: #E2E38C;
+      }
+      50%{
+            background-color: #ff4287;
+      }
+      100%{
+            background-color: #F8D0DE;
+      }
+  }

@@ -1,0 +1,84 @@
+*{
+margin: 0%;
+}
+
+body{
+   font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1{
+   margin-bottom: 100%;
+   background-color: #5577a7;
+   font-weight: 400;
+}
+
+p{
+   background-color: #87BFFF;
+}
+
+header{
+
+   background-color: #87BFFF;
+   text-align: center;
+   text-anchor: middle;
+   padding-bottom: 30px;
+   
+}
+
+ul li {
+   display: inline;
+   padding-left: 15px;
+   padding-right: 15px;
+   background-color: #87BFFF;
+   color: #ADD7F6;
+   margin-top: 500px;
+}
+
+h2 {
+
+   background-color: #5577a7;
+   text-align: center;
+   font-size: 250%;
+   color : white;
+}
+
+footer {
+   background-color: #3B28CC;
+   text-align: center;
+   color: white;
+  }
+
+.Portada {
+   background-image: url("../img/fondo.jpg");
+   background-color: #5577a7;
+   background-position-y: -50px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size:cover;
+   height: 1200px;
+   width: auto;
+   text-align: center;
+   font-size: 250%;
+   color: white;
+}
+
+.Guarda {
+    background-image: url("../img/Guardaanim2.gif");
+    background-color: #87BFFF;
+    background-repeat: repeat-x;
+    background-size:contain; 
+    text-align: center;
+    color:#ADD7F6;
+   
+}
+
+.navbar {
+   background-color: #ADD7F6;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+a{
+   text-decoration: none;
+   color: white;
+}

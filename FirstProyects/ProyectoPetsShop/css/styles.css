@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.Portada{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+h1 img {
+    width: 25px;
+}
+.H1Negrita {
+    color:black;
+    margin-right: -15px;
+}
+ nav ul li{
+ display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgb(236, 181, 79);
+    text-decoration: none;
+}
+.ofertas {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.Hero{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background1.png);
+    height: 580px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;   
+}
+.Hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+.Hero h2 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.Hero p {
+    padding: 10px;
+    font-style: ;
+}
+.Hero a {
+  color: #fff;
+  padding: 10px;
+  background-color: rgb(236, 181, 79);
+  border-radius: 8px;
+}
+

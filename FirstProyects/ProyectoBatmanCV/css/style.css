@@ -1,0 +1,61 @@
+#Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+}
+h1, h2{
+  color: #005677;
+  background-color: #c4c4c4;
+  text-align: center;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 35px;
+}
+
+.Portada {
+  background-color: #e5e5e5;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+}
+
+#Pie {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman";
+  color: white;
+  background-color: #005677;
+  font-weight: 700;
+  width: 100%;
+}
+
+dt {
+  font-weight: bold;  
+}
+dl{
+  margin-left: 20px;
+} 
+dd{
+  margin-left: 75px;
+}
+span{
+ font-style: italic;
+ font-weight: bold;
+}
+footer{
+  letter-spacing: 5px;
+  font-size: 25px;
+
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.descuento {
+  width: 100%;
+  background-color: #1cd1b0;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #00669f;
+  padding: 10px;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  display : flex;
+  width: 350px;
+  border-radius: 16px 16px 0 0;
+  margin-left: 0px;
+  top: 155px;
+  margin-left: 30px;
+}
+.cardSuperior {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-image: url(../img/harleyback.png);
+}
+.dos {
+  background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+.tres {
+  background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+
+i {
+  color: red;
+  margin-right: 85%;
+  margin-top: 5%;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+.cardInferior img {
+  position: absolute;
+  border-radius: 50%;
+  top: 125px;
+  left: calc(50% - 60px);
+}
+.cardInferior {
+  padding: 100px 20px;
+  width: 100%;
+  text-align: left;
+  background-color: #f3f3f3;
+}
+a {
+  position: relative;
+  bottom: 50px;
+  background-color: #00669f;
+
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+footer {
+  position: relative;
+  top: 350px;
+  background-color: #00669f;
+  color: white;
+  padding: 5px;
+}
+.nombre {
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
