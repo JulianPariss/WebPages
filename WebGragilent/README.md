@@ -8,6 +8,5 @@ Es la pagina web mas completa realizada hasta la fecha.
 * Figma
 * HTML
 * CSS
-* JavaScript
 
 #### [Run WebPage](https://julianpariss.github.io/WebPages/WebGragilent)
