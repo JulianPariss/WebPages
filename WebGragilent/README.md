@@ -9,4 +9,11 @@ Es la pagina web mas completa realizada hasta la fecha.
 * HTML
 * CSS
 
+### Recursos utilizados: 
+* Fuentes obtenidas de [GoogleFonts](https://fonts.google.com)
+* Imagenes en su mayoria obtenidas de googleImages
+* Iconos obtenidos de [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+
+Cuenta con el responsive completo, formulaios, tarjetas y una navegacion total por la pagina.
+
 #### [Run WebPage](https://julianpariss.github.io/WebPages/WebGragilent)
